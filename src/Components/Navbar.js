@@ -29,15 +29,11 @@ function Navbar() {
 
   return (
     <>
-      <nav classNAme="navbar">
+      <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" classNAme="navbar-logo">
+          <Link to="/" className="navbar-logo">
             <img src={LogoLong} className="div-header-logo" />
           </Link>
-          {/* <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            TRVL
-            <i class="fab fa-typo3" />
-          </Link> */}
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
