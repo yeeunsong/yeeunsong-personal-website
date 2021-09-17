@@ -2,7 +2,7 @@ import "./Experiences.css";
 
 function Experiences() {
   return (
-    <div className="Experiences">
+    <div id = "about" className="Experiences">
       <div className="static-container">
         <h1 className="title">Experiences</h1>
 
@@ -10,7 +10,11 @@ function Experiences() {
           <div className="first-fold">
             <ul className="about-contact">
               <li>
-                <a href="/" target="_blank" title="LinkedIn">
+                <a
+                  href="https://www.linkedin.com/in/yeeun-song-2b1481208/"
+                  target="_blank"
+                  title="LinkedIn"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="ico"
@@ -28,13 +32,13 @@ function Experiences() {
               </li>
               <li>
                 <a
-                  href="https://github.com/iuridepaula"
+                  href="https://github.com/yeeunsong"
                   target="_blank"
                   title="GitHub"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="ico"
+                    className="ico"
                     viewBox="0 0 16 16"
                     role="img"
                     aria-labelledby="GithubIcoTitle"
@@ -52,7 +56,7 @@ function Experiences() {
               <li>
                 Download my
                 <a
-                  href="./Iuri-de-Paula-Resume.pdf"
+                  href="./"
                   target="_blank"
                   title="Download Resume"
                   className="bt"
@@ -60,7 +64,7 @@ function Experiences() {
                   resume{" "}
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="ico"
+                    className="ico"
                     viewBox="0 0 16 16"
                   >
                     <path
@@ -75,144 +79,171 @@ function Experiences() {
               </li>
             </ul>
 
-            <p class="-purple">
-              I am a creative frontend developer, designer and illustrator.
+            <p className="-purple">
+              I am an engineer, project developer, and ?
             </p>
-            <p class="-gray">10+ years of experience</p>
+            <p className="-gray">
+              following directions where my interest leads me.
+            </p>
           </div>
-          
+
           <div className="about-grid">
-                    <h2>Main skills</h2>
-                    <div class="columns fluent">
-                        <ul>
-                            <li>
-                                Frontend development,<br>
-                                UX/UI design
-                            </li>
-                            <li>
-                                JavaScript, CSS, HTML<br>
-                                Vue, jQuery, GSAP
-                            </li>
-                            <li>
-                                Photoshop,<br>
-                                Illustrator
-                            </li>
-                            <li>
-                                Strategic thinking,<br>
-                                Storytelling
-                            </li>
-                            <li>
-                                E-commerce,<br>
-                                Magento,<br>
-                                WordPress
-                            </li>
-                            <li>
-                                Graphic design,<br>
-                                Brand design
-                            </li>
-                        </ul>
-                    </div>
+            <h2>Main skills</h2>
+            <div className="columns fluent">
+              <ul>
+                <li>
+                  Frontend development,
+                  <br />
+                  UX/UI design
+                </li>
+                <li>
+                  JavaScript, CSS, HTML
+                  <br />
+                  Vue, jQuery, GSAP
+                </li>
+                <li>
+                  Photoshop,
+                  <br />
+                  Illustrator
+                </li>
+                <li>
+                  Strategic thinking,
+                  <br />
+                  Storytelling
+                </li>
+                <li>
+                  E-commerce,
+                  <br />
+                  Magento,
+                  <br />
+                  WordPress
+                </li>
+                <li>
+                  Graphic design,
+                  <br />
+                  Brand design
+                </li>
+              </ul>
+            </div>
 
-                    <h2>Tools</h2>
-                    <div class="columns tools">
-                        <ul>
-                            <li>Vue</li>
-                            <li>Sass/Less</li>
-                            <li>Linters</li>
-                            <li>Mocha</li>
-                            <li>React</li>
-                            <li>Angular</li>
-                        </ul>
-                        <ul>
-                            <li>Webpack</li>
-                            <li>Node.js</li>
-                            <li>npm</li>
-                            <li>GitHub</li>
-                            <li>REST APIs</li>
-                            <li>PHP</li>
-                        </ul>
-                        <ul>
-                            <li>Photoshop</li>
-                            <li>Illustrator</li>
-                            <li>Adobe XD</li>
-                            <li>Sketch</li>
-                            <li>SVG</li>
-                            <li>Canvas</li>
-                        </ul>
-                        <ul>
-                            <li>Pencil & Paper</li>
-                            <li>Philosophy</li>
-                            <li>Psychology</li>
-                        </ul>
-                    </div>
+            <h2>Tools</h2>
+            <div className="columns tools">
+              <ul>
+                <li>Vue</li>
+                <li>Sass/Less</li>
+                <li>Linters</li>
+                <li>Mocha</li>
+                <li>React</li>
+                <li>Angular</li>
+              </ul>
+              <ul>
+                <li>Webpack</li>
+                <li>Node.js</li>
+                <li>npm</li>
+                <li>GitHub</li>
+                <li>REST APIs</li>
+                <li>PHP</li>
+              </ul>
+              <ul>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
+                <li>Adobe XD</li>
+                <li>Sketch</li>
+                <li>SVG</li>
+                <li>Canvas</li>
+              </ul>
+              <ul>
+                <li>Pencil & Paper</li>
+                <li>Philosophy</li>
+                <li>Psychology</li>
+              </ul>
+            </div>
 
-                    <h2>Experience</h2>
-                    <div class="columns experience">
-                        <ul>
-                            <li>
-                                <b class="-purple">Head of Product Design</b><br>
-                                at BizCommerce<br>
-                                2016 - 2019
-                            </li>
-                            <li>
-                                <b class="-purple">Head of UX/UI</b><br>
-                                at BizCommerce<br>
-                                2011 - 2019
-                            </li>
-                            <li>
-                                <b class="-purple">Head of Design & Frontend</b><br>
-                                at JOE<br>
-                                2010 - 2014
-                            </li>
-                            <li>
-                                <b class="-purple">Senior Frontend Developer</b><br>
-                                at Tray<br>
-                                2008 - 2010
-                            </li>
-                            <li>
-                                <b class="-purple">Web Designer</b><br>
-                                at E2W<br>
-                                2006 - 2008
-                            </li>
-                            <li>
-                                <b class="-purple">Freelancer</b><br>
-                                Illustrations & Web development<br>
-                                2005 - now
-                            </li>
-                        </ul>
-                    </div>
+            <h2>Experience</h2>
+            <div className="columns experience">
+              <ul>
+                <li>
+                  <b className="-purple">Head of Product Design</b>
+                  <br />
+                  at BizCommerce
+                  <br />
+                  2016 - 2019
+                </li>
+                <li>
+                  <b className="-purple">Head of UX/UI</b>
+                  <br />
+                  at BizCommerce
+                  <br />
+                  2011 - 2019
+                </li>
+                <li>
+                  <b className="-purple">Head of Design & Frontend</b>
+                  <br />
+                  at JOE
+                  <br />
+                  2010 - 2014
+                </li>
+                <li>
+                  <b className="-purple">Senior Frontend Developer</b>
+                  <br />
+                  at Tray
+                  <br />
+                  2008 - 2010
+                </li>
+                <li>
+                  <b className="-purple">Web Designer</b>
+                  <br />
+                  at E2W
+                  <br />
+                  2006 - 2008
+                </li>
+                <li>
+                  <b className="-purple">Freelancer</b>
+                  <br />
+                  Illustrations & Web development
+                  <br />
+                  2005 - now
+                </li>
+              </ul>
+            </div>
 
-                    <h2>Languages</h2>
-                    <div class="columns languages">
-                        <ul>
-                            <li>
-                                <span class="-comment">// fluent</span><br>
-                                <i class="-purple">pt-BR</i> Português,<br>
-                                <i class="-purple">en-US</i> English
-                            </li>
-                            <li>
-                                <span class="-comment">// intermediate</span><br>
-                                <i class="-purple">es-ES</i> Español<br>
-                            </li>
-                            <li>
-                                <span class="-comment">// basic</span><br>
-                                <i class="-purple">ca-ES</i> Català,<br>
-                                <i class="-purple">ja-JP</i> 日本語<br>
-                            </li>
-                        </ul>
-                    </div>
+            <h2>Languages</h2>
+            <div className="columns languages">
+              <ul>
+                <li>
+                  <span className="-comment">// fluent</span>
+                  <br />
+                  <i className="-purple">pt-BR</i> Português,
+                  <br />
+                  <i className="-purple">en-US</i> English
+                </li>
+                <li>
+                  <span className="-comment">// intermediate</span>
+                  <br />
+                  <i className="-purple">es-ES</i> Español
+                  <br />
+                </li>
+                <li>
+                  <span className="-comment">// basic</span>
+                  <br />
+                  <i className="-purple">ca-ES</i> Català,
+                  <br />
+                  <i className="-purple">ja-JP</i> 日本語
+                  <br />
+                </li>
+              </ul>
+            </div>
 
-                    <h2>Also busy with</h2>
-                    <div class="columns busy">
-                        <ul>
-                            <li>Pet my dog</li>
-                            <li>Spanish guitar</li>
-                            <li>Video games</li>
-                            <li>#eleNÃO</li>
-                        </ul>
-                    </div>
-                </div>
-       
+            <h2>Also busy with</h2>
+            <div className="columns busy">
+              <ul>
+                <li>Pet my dog</li>
+                <li>Spanish guitar</li>
+                <li>Video games</li>
+                <li>#eleNÃO</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>

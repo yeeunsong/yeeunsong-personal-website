@@ -5,7 +5,7 @@ function Home() {
     <div className="Home">
       <video src="/videos/video-1.mp4" autoPlay loop muted />
       <h1>Hi, I'm Yeeun.</h1>
-      <p>I'll show you around my workplace.</p>
+      <p>I'll show you around my workspace.</p>
     </div>
   );
 }
