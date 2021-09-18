@@ -4,9 +4,9 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
     "@fortawesome/react-fontawesome": "^0.1.15",
     "@mui/material": "^5.0.0",
-    "use-cannon": "0.5.3",
     "@react-three/postprocessing": "^1.4.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -20,6 +20,7 @@
     "react-three-fiber": "^5.0.3",
     "styled-components": "^5.3.1",
     "three": "^0.121.1",
+    "use-cannon": "0.5.3",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
