@@ -12,14 +12,16 @@ function Box() {
   );
 }
 
-export default function App() {
+export default function Projects() {
   return (
-    <Canvas>
-      <OrbitControls />
-      <Stars />
-      <ambientLight intensity={0.5} />
-      <spotLight position={[10, 15, 10]} angle={0.3} />
-      <Box />
-    </Canvas>
+    <div className="Projects">
+      <Canvas>
+        <OrbitControls />
+        <Stars />
+        <ambientLight intensity={0.5} />
+        <spotLight position={[10, 15, 10]} angle={0.3} />
+        <Box />
+      </Canvas>
+    </div>
   );
 }
