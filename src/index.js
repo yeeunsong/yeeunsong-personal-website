@@ -2,4 +2,21 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import { createBrowserHistory } from "history";
+import { Router, Route } from "react-router-dom";
+
+const rootElement = document.getElementById("root");
+const customHistory = createBrowserHistory({
+  // basename: config.urlBasename || ""
+});
+ReactDOM.render(
+  <Router history={customHistory}>
+    <Route
+      component={({ history }) => {
+        window.appHistory = history;
+        return <App />;
+      }}
+    />
+  </Router>,
+  rootElement
+);
