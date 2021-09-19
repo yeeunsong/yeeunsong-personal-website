@@ -73,34 +73,52 @@ function Experiences() {
                   Machine Learning
                 </li>
                 <li>
-                  Node.js, JavaScript, React
+                  Node.js, JavaScript, React,
                   <br />
                   C, Python, Pytorch
                 </li>
               </ul>
             </div>
 
-            <h2>Work Experience</h2>
-            <div className="columns tools">
+            <h2>Work Experiences</h2>
+            <div className="columns experience">
               <ul>
-                <li>Wildfire AI Strategy Planning / Sales, Intern</li>
-                <li>Alchera</li>
-                <li>2021.03 - 2021.09</li>
-              </ul>
-              <ul>
-                <li>Machine Learning (Data Generation Model), Intern</li>
-                <li>ETRI</li>
-                <li>2021.01 - 2021.02</li>
-              </ul>
-              <ul>
-                <li>Machine Learning (Virtual Dataset), Intern</li>
-                <li>ETRI</li>
-                <li>2020.07 - 2020.08</li>
-              </ul>
-              <ul>
-                <li>International Student Management, Intern</li>
-                <li>Korea Univ. International Summer School</li>
-                <li>2019.07 - 2019.08</li>
+                <li>
+                  <b className="-purple">
+                    Wildfire AI Strategy Planning / Sales, Intern
+                  </b>
+                  <br />
+                  Alchera
+                  <br />
+                  2021.03 - 2021.09
+                </li>
+                <li>
+                  <b className="-purple">
+                    Machine Learning (Generative Model), Intern
+                  </b>
+                  <br />
+                  ETRI
+                  <br />
+                  2021.01 - 2021.02
+                </li>
+                <li>
+                  <b className="-purple">
+                    Machine Learning (Virtual Dataset), Intern
+                  </b>
+                  <br />
+                  ETRI
+                  <br />
+                  2020.07 - 2020.08
+                </li>
+                <li>
+                  <b className="-purple">
+                    International Students Management, Intern
+                  </b>
+                  <br />
+                  Korea Univ. International Summer School
+                  <br />
+                  2019.07 - 2019.08
+                </li>
               </ul>
             </div>
 
@@ -108,7 +126,7 @@ function Experiences() {
             <div className="columns experience">
               <ul>
                 <li>
-                  <b className="-purple">2020 DIME Innovative IdeaTon</b>
+                  <b className="-purple">2020 DIME Innovative Ideaton</b>
                   <br />
                   App for the mobility handicapped
                   <br />
@@ -124,7 +142,7 @@ function Experiences() {
                 <li>
                   <b className="-purple">KU 2020 Smart Campus Dataton</b>
                   <br />
-                  App for promotional materials management services
+                  App for promotional material management services
                   <br />
                   2020.09
                 </li>
@@ -142,15 +160,6 @@ function Experiences() {
             <div className="columns experience">
               <ul>
                 <li>
-                  <b className="-purple">Korea Univ Big Data / Machine Learning Association</b>
-                  <br />
-                  Vice President
-                  <br/>
-                  Machine learning projects
-                  <br />
-                  2019.04 - 2020.08
-                </li>
-                <li>
                   <b className="-purple">2020 Kaist Summer MadCamp</b>
                   <br />
                   Developed 4 app and web services
@@ -158,23 +167,37 @@ function Experiences() {
                   2021.07
                 </li>
                 <li>
+                  <b className="-purple">
+                    Korea University Big Data / Machine Learning Association,
+                    Vice President
+                  </b>
+                  <br />
+                  Long-term machine learning projects
+                  <br />
+                  2019.04 - 2020.08
+                </li>
+                <li>
                   <b className="-purple">KU Future Sharing School</b>
                   <br />
-                  Math/English mentor for high school students
+                  Math / English mentor for high school students
                   <br />
                   2018.05 - 2019.03
                 </li>
                 <li>
-                  <b className="-purple">KU Global Leadership China Winter Program</b>
+                  <b className="-purple">
+                    KU Global Leadership China Winter Program
+                  </b>
                   <br />
-                  Harbin Institute of Technology, chinese study
+                  Harbin Institute of Technology, Chinese study
                   <br />
                   2018.12 - 2019.01
                 </li>
                 <li>
-                  <b className="-purple">KU Global Leadership China Summer Program</b>
+                  <b className="-purple">
+                    KU Global Leadership China Summer Program
+                  </b>
                   <br />
-                  Shanghai Huadong Normal University, chinese study
+                  Shanghai Huadong Normal University, Chinese study
                   <br />
                   2018.07 - 2018.08
                 </li>
@@ -185,19 +208,13 @@ function Experiences() {
             <div className="columns languages">
               <ul>
                 <li>
-                  <span className="-comment">Korean</span>
-                  <br />
-                  Native
+                  <span className="-comment">Korean // Native</span>
                 </li>
                 <li>
-                  <span className="-comment">English</span>
-                  <br />
-                  Fluent
+                  <span className="-comment">English // Fluent</span>
                 </li>
                 <li>
-                  <span className="-comment">Chinese</span>
-                  <br />
-                  Basic
+                  <span className="-comment">Chinese // Basic</span>
                 </li>
               </ul>
             </div>
