@@ -2,7 +2,7 @@ import "./Experiences.css";
 
 function Experiences() {
   return (
-    <div id = "about" className="Experiences">
+    <div id="about" className="Experiences">
       <div className="static-container">
         <h1 className="title">Experiences</h1>
 
@@ -53,156 +53,130 @@ function Experiences() {
                   </svg>
                 </a>
               </li>
-              <li>
-                Download my
-                <a
-                  href="./"
-                  target="_blank"
-                  title="Download Resume"
-                  className="bt"
-                >
-                  resume{" "}
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="ico"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill="none"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-miterlimit="10"
-                      d="M8 11.4l3.3-2.9m-6.6 0L8 11.4V.5M.5 10.8v4.7h15v-4.7"
-                    />
-                  </svg>
-                </a>
-              </li>
             </ul>
 
             <p className="-purple">
-              I am an engineer, project developer, and ?
+              I am an engineer, project developer, and explorer.
             </p>
             <p className="-gray">
-              following directions where my interest leads me.
+              Following directions where my interest leads me.
             </p>
           </div>
 
           <div className="about-grid">
-            <h2>Main skills</h2>
+            <h2>Skills</h2>
             <div className="columns fluent">
               <ul>
                 <li>
-                  Frontend development,
+                  Backend Development,
                   <br />
-                  UX/UI design
+                  Machine Learning
                 </li>
                 <li>
-                  JavaScript, CSS, HTML
+                  Node.js, JavaScript, React
                   <br />
-                  Vue, jQuery, GSAP
-                </li>
-                <li>
-                  Photoshop,
-                  <br />
-                  Illustrator
-                </li>
-                <li>
-                  Strategic thinking,
-                  <br />
-                  Storytelling
-                </li>
-                <li>
-                  E-commerce,
-                  <br />
-                  Magento,
-                  <br />
-                  WordPress
-                </li>
-                <li>
-                  Graphic design,
-                  <br />
-                  Brand design
+                  C, Python, Pytorch
                 </li>
               </ul>
             </div>
 
-            <h2>Tools</h2>
+            <h2>Work Experience</h2>
             <div className="columns tools">
               <ul>
-                <li>Vue</li>
-                <li>Sass/Less</li>
-                <li>Linters</li>
-                <li>Mocha</li>
-                <li>React</li>
-                <li>Angular</li>
+                <li>Wildfire AI Strategy Planning / Sales, Intern</li>
+                <li>Alchera</li>
+                <li>2021.03 - 2021.09</li>
               </ul>
               <ul>
-                <li>Webpack</li>
-                <li>Node.js</li>
-                <li>npm</li>
-                <li>GitHub</li>
-                <li>REST APIs</li>
-                <li>PHP</li>
+                <li>Machine Learning (Data Generation Model), Intern</li>
+                <li>ETRI</li>
+                <li>2021.01 - 2021.02</li>
               </ul>
               <ul>
-                <li>Photoshop</li>
-                <li>Illustrator</li>
-                <li>Adobe XD</li>
-                <li>Sketch</li>
-                <li>SVG</li>
-                <li>Canvas</li>
+                <li>Machine Learning (Virtual Dataset), Intern</li>
+                <li>ETRI</li>
+                <li>2020.07 - 2020.08</li>
               </ul>
               <ul>
-                <li>Pencil & Paper</li>
-                <li>Philosophy</li>
-                <li>Psychology</li>
+                <li>International Student Management, Intern</li>
+                <li>Korea Univ. International Summer School</li>
+                <li>2019.07 - 2019.08</li>
               </ul>
             </div>
 
-            <h2>Experience</h2>
+            <h2>Awards</h2>
             <div className="columns experience">
               <ul>
                 <li>
-                  <b className="-purple">Head of Product Design</b>
+                  <b className="-purple">2020 DIME Innovative IdeaTon</b>
                   <br />
-                  at BizCommerce
+                  App for the mobility handicapped
                   <br />
-                  2016 - 2019
+                  2020.12
                 </li>
                 <li>
-                  <b className="-purple">Head of UX/UI</b>
+                  <b className="-purple">Drone AI Video Software Hackaton</b>
                   <br />
-                  at BizCommerce
+                  AI model for drone video object detection
                   <br />
-                  2011 - 2019
+                  2020.10
                 </li>
                 <li>
-                  <b className="-purple">Head of Design & Frontend</b>
+                  <b className="-purple">KU 2020 Smart Campus Dataton</b>
                   <br />
-                  at JOE
+                  App for promotional materials management services
                   <br />
-                  2010 - 2014
+                  2020.09
                 </li>
                 <li>
-                  <b className="-purple">Senior Frontend Developer</b>
+                  <b className="-purple">Creative Challenger Program</b>
                   <br />
-                  at Tray
+                  Credit card fraud detection AI
                   <br />
-                  2008 - 2010
+                  2019.04 - 2020.02
+                </li>
+              </ul>
+            </div>
+
+            <h2>Activities</h2>
+            <div className="columns experience">
+              <ul>
+                <li>
+                  <b className="-purple">Korea Univ Big Data / Machine Learning Association</b>
+                  <br />
+                  Vice President
+                  <br/>
+                  Machine learning projects
+                  <br />
+                  2019.04 - 2020.08
                 </li>
                 <li>
-                  <b className="-purple">Web Designer</b>
+                  <b className="-purple">2020 Kaist Summer MadCamp</b>
                   <br />
-                  at E2W
+                  Developed 4 app and web services
                   <br />
-                  2006 - 2008
+                  2021.07
                 </li>
                 <li>
-                  <b className="-purple">Freelancer</b>
+                  <b className="-purple">KU Future Sharing School</b>
                   <br />
-                  Illustrations & Web development
+                  Math/English mentor for high school students
                   <br />
-                  2005 - now
+                  2018.05 - 2019.03
+                </li>
+                <li>
+                  <b className="-purple">KU Global Leadership China Winter Program</b>
+                  <br />
+                  Harbin Institute of Technology, chinese study
+                  <br />
+                  2018.12 - 2019.01
+                </li>
+                <li>
+                  <b className="-purple">KU Global Leadership China Summer Program</b>
+                  <br />
+                  Shanghai Huadong Normal University, chinese study
+                  <br />
+                  2018.07 - 2018.08
                 </li>
               </ul>
             </div>
@@ -211,25 +185,19 @@ function Experiences() {
             <div className="columns languages">
               <ul>
                 <li>
-                  <span className="-comment">// fluent</span>
+                  <span className="-comment">Korean</span>
                   <br />
-                  <i className="-purple">pt-BR</i> Português,
-                  <br />
-                  <i className="-purple">en-US</i> English
+                  Native
                 </li>
                 <li>
-                  <span className="-comment">// intermediate</span>
+                  <span className="-comment">English</span>
                   <br />
-                  <i className="-purple">es-ES</i> Español
-                  <br />
+                  Fluent
                 </li>
                 <li>
-                  <span className="-comment">// basic</span>
+                  <span className="-comment">Chinese</span>
                   <br />
-                  <i className="-purple">ca-ES</i> Català,
-                  <br />
-                  <i className="-purple">ja-JP</i> 日本語
-                  <br />
+                  Basic
                 </li>
               </ul>
             </div>
@@ -237,10 +205,10 @@ function Experiences() {
             <h2>Also busy with</h2>
             <div className="columns busy">
               <ul>
-                <li>Pet my dog</li>
-                <li>Spanish guitar</li>
-                <li>Video games</li>
-                <li>#eleNÃO</li>
+                <li>Learning German</li>
+                <li>Preparing exchange student to Germany</li>
+                <li>Workout</li>
+                <li>Running</li>
               </ul>
             </div>
           </div>
