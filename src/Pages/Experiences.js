@@ -75,7 +75,7 @@ function Experiences() {
                   Machine Learning
                 </li>
                 <li>
-                  Node.js, JavaScript, Express,
+                  Node.js, Express, Three.js,
                   <br />
                   C, Python, Pytorch
                 </li>
