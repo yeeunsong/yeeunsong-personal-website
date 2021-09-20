@@ -2,6 +2,25 @@
     opacity: 0;
     visibility: hidden;
 }
+
+.Experiences{
+    background-color: #0e1212;
+    height: 100%;
+    width: 100%;
+}
+
+.title{
+    color: var(--bg);
+}
+
+.-purple{
+    color: var(--bg);
+}
+
+.-gray{
+    color: var(--bg);
+}
+
 #about:before {
     content: '';
     display: block;
@@ -27,7 +46,7 @@
     flex: 0 0 auto;
     list-style: none;
     margin: 0 1rem 0 0;
-    color: var(--gray);
+    color: #555051;
 }
 #about .about-contact a {
     flex: 0 0 auto;
@@ -73,6 +92,8 @@
 #about .about-grid h2 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
+    color: var(--bg);
+
 }
 #about .about-grid .columns {
     margin-bottom: 2rem;
@@ -88,7 +109,7 @@
     margin: 0;
     font-size: 1rem;
     line-height: 1.5em;
-    color: var(--gray);
+    color: #555051;
 }
 #about .about-grid .tools {
     display: grid;

@@ -13,3 +13,9 @@
   justify-content: center;
   font-size: 3rem;
 }
+
+:root{
+  --purple: #f8f9fa;
+  --bg: #6c757d;
+  --light: #dbdbdb;
+}
