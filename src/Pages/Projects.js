@@ -32,13 +32,11 @@ function Box({ position, imageurl, link }) {
       onPointerOut={() => setHovered(false)}
       scale={props.scale}
     >
-      <boxBufferGeometry attach="geometry" />
+      <sphereGeometry attach="geometry" args={[1, 32, 32]} />
       <meshStandardMaterial attach="material" map={texture} />
     </a.mesh>
   );
 }
-
-
 
 export default function Projects() {
   return (
@@ -55,8 +53,28 @@ export default function Projects() {
             link={"https://github.com/yeeunsong/state-of-the-art-server"}
           />
           <Box
-            position={[-10, 0, -20]}
+            position={[5, 1, -2]}
             imageurl={"/images/img-2.jpg"}
+            link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
+          />
+          <Box
+            position={[0, 1, 0]}
+            imageurl={"/images/img-3.jpg"}
+            link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
+          />
+          <Box
+            position={[1, -1, 0]}
+            imageurl={"/images/img-4.jpg"}
+            link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
+          />
+          <Box
+            position={[-3, 2, -1]}
+            imageurl={"/images/img-5.jpg"}
+            link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
+          />
+          <Box
+            position={[-4, -2, -2]}
+            imageurl={"/images/img-6.jpg"}
             link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
           />
         </Suspense>
