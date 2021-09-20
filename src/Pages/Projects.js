@@ -189,7 +189,7 @@ export default function Projects() {
             text={"Rotate the space around :)"}
           />
           <Text
-            position={[-5, -2, -3]}
+            position={[-6, -2, -3]}
             size={0.5}
             height={0.3}
             text={"Click each planet"}
@@ -206,7 +206,7 @@ export default function Projects() {
           />
           <Sphere
             position={[0, 0, -2.5]}
-            imageurl={"/images/img-3.jpg"}
+            imageurl={"/images/img-8.jpg"}
             link={"https://github.com/yeeunsong/SinGAN"}
           />
           <Sphere
