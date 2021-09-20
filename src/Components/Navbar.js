@@ -30,7 +30,11 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
-            <img src={LogoLong} className="div-header-logo" />
+            <img
+              src={LogoLong}
+              alt="yeeunsong-logo"
+              className="yeeunsong-logo"
+            />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
@@ -58,6 +62,17 @@ function Navbar() {
               >
                 Experiences
               </Link>
+            </li>
+            <li className="nav-item">
+              <a
+                href="https://github.com/yeeunsong"
+                target="_blank"
+                title="Github"
+                rel="noreferrer"
+                className="nav-links"
+              >
+                <img src={Github} alt="github-logo" className="github-logo" />
+              </a>
             </li>
           </ul>
         </div>

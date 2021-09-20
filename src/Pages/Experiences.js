@@ -14,6 +14,7 @@ function Experiences() {
                   href="https://www.linkedin.com/in/yeeun-song-2b1481208/"
                   target="_blank"
                   title="LinkedIn"
+                  rel="noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -35,6 +36,7 @@ function Experiences() {
                   href="https://github.com/yeeunsong"
                   target="_blank"
                   title="GitHub"
+                  rel="noreferrer"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
