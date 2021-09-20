@@ -23,7 +23,7 @@ function Box({ position, imageurl, link }) {
   useEffect(() => {
     document.body.style.cursor = hovered ? "pointer" : "auto";
   }, [hovered]);
-  
+
   return (
     <a.mesh
       position={position}
@@ -38,22 +38,7 @@ function Box({ position, imageurl, link }) {
   );
 }
 
-function Box2() {
-  const textureLoader = new TextureLoader();
-  const texture2 = textureLoader.load("/images/img-2.jpg");
 
-  return (
-    <mesh
-      position={[-10, 0, -20]}
-      onClick={(event) =>
-        window.open("https://github.com/wrongakram/react-three-fiber")
-      }
-    >
-      <boxBufferGeometry attach="geometry" />
-      <meshStandardMaterial attach="material" map={texture2} />
-    </mesh>
-  );
-}
 
 export default function Projects() {
   return (
@@ -67,9 +52,13 @@ export default function Projects() {
           <Box
             position={[-2, 1, -5]}
             imageurl={"/images/img-1.jpg"}
-            link={"https://google.com"}
+            link={"https://github.com/yeeunsong/state-of-the-art-server"}
           />
-          <Box2 />
+          <Box
+            position={[-10, 0, -20]}
+            imageurl={"/images/img-2.jpg"}
+            link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
+          />
         </Suspense>
       </Canvas>
     </div>
