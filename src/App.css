@@ -15,7 +15,11 @@
 }
 
 :root{
-  --purple: #f8f9fa;
-  --bg: #6c757d;
-  --light: #dbdbdb;
+  --mint: #3DC9B3;
+  --gray-light: #dbdbdb;
+  --gray-medium: #6c757d;
+  --gray-dark: #333333;
+  --white:#F3F5F8; 
+  --orange: #F16000;
+    
 }

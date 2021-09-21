@@ -4,7 +4,7 @@ function Experiences() {
   return (
     <div id="about" className="Experiences">
       <div className="static-container">
-        <h1 className="title">Experiences</h1>
+        <h1 className="major-title">Experiences</h1>
 
         <div className="std">
           <div className="first-fold">
@@ -57,16 +57,17 @@ function Experiences() {
               </li>
             </ul>
 
-            <p className="-purple">
-              I am an engineer, project developer, and explorer.
+            <p className="-gray">
+              I am an engineer, project developer, and explorer. Following
+              directions where my interests leads me.
             </p>
             <p className="-gray">
-              Following directions where my interest leads me.
+              Currently senior in Computer Science at Korea University.
             </p>
           </div>
 
           <div className="about-grid">
-            <h2>Skills</h2>
+            <h2 className="sub-title">Skills</h2>
             <div className="columns fluent">
               <ul>
                 <li>
@@ -82,7 +83,7 @@ function Experiences() {
               </ul>
             </div>
 
-            <h2>Work Experiences</h2>
+            <h2 className="sub-title">Work Experiences</h2>
             <div className="columns experience">
               <ul>
                 <li>
@@ -124,7 +125,7 @@ function Experiences() {
               </ul>
             </div>
 
-            <h2>Awards</h2>
+            <h2 className="sub-title">Awards</h2>
             <div className="columns experience">
               <ul>
                 <li>
@@ -158,7 +159,7 @@ function Experiences() {
               </ul>
             </div>
 
-            <h2>Activities</h2>
+            <h2 className="sub-title">Activities</h2>
             <div className="columns experience">
               <ul>
                 <li>
@@ -206,7 +207,7 @@ function Experiences() {
               </ul>
             </div>
 
-            <h2>Languages</h2>
+            <h2 className="sub-title">Languages</h2>
             <div className="columns languages">
               <ul>
                 <li>
@@ -221,7 +222,7 @@ function Experiences() {
               </ul>
             </div>
 
-            <h2>Also busy with</h2>
+            <h2 className="sub-title">Also busy with</h2>
             <div className="columns busy">
               <ul>
                 <li>Learning German</li>

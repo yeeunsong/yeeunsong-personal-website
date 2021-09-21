@@ -4,17 +4,43 @@
 }
 
 .Experiences{
-    background-color: #0e1212;
+    background-color: var(--white);
     height: 100%;
     width: 100%;
 }
 
-.title{
-    color: var(--bg);
+.Experiences {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 20vh;
+    min-height: 100vh;
+    transition: opacity 0.5s linear;
+}
+.Experiences:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50vh;
+    bottom: 50vh;
+    left: calc(25vw - 2rem);
+    z-index: 99;
+    width: 1px;
+    opacity: 0.3;
+    background: var(--purple) linear-gradient(to bottom, var(--bg), rgba(0, 0, 0, ) 20vh);
+}
+
+
+
+.major-title{
+    color: var(--gray-dark);
 }
 
 .-purple{
     color: var(--bg);
+}
+
+.sub-title{
+    color: var(--mint);
 }
 
 .-gray{
@@ -29,11 +55,9 @@
     left: 0;
     width: 40%;
     height: 100%;
-    /* background-image: linear-gradient(to left, var(--bg), rgba(0, 0, 0, ) 90%), linear-gradient(to bottom, var(--bg), rgba(0, 0, 0, ) 60%), url(); */
-    background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+} 
 #about .about-contact {
     display: flex;
     align-items: center;
@@ -46,7 +70,7 @@
     flex: 0 0 auto;
     list-style: none;
     margin: 0 1rem 0 0;
-    color: #555051;
+    color: var(--gray);
 }
 #about .about-contact a {
     flex: 0 0 auto;
@@ -77,7 +101,7 @@
     width: 1.5rem;
     height: 1.5rem;
     stroke: var(--bg);
-    fill: var(--purple);
+    fill: var(--orange);
     stroke-width: 2px;
     transition: all 400ms ease-out;
 }
@@ -92,7 +116,7 @@
 #about .about-grid h2 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: var(--bg);
+    color: var(--orange);
 
 }
 #about .about-grid .columns {
@@ -109,7 +133,7 @@
     margin: 0;
     font-size: 1rem;
     line-height: 1.5em;
-    color: #555051;
+    color: var(--gray);
 }
 #about .about-grid .tools {
     display: grid;
