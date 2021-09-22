@@ -2,7 +2,7 @@ import "./Experiences.css";
 
 function Experiences() {
   return (
-    <div id="about" className="Experiences">
+    <div id="about" className="wrapper">
       <div className="static-container">
         <h1 className="major-title">Experiences</h1>
 
