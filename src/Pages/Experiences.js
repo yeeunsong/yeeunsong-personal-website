@@ -62,7 +62,7 @@ function Experiences() {
               directions where my interests leads me.
             </p>
             <p className="-gray">
-              Currently senior in Computer Science at Korea University.
+              Currently majoring Computer Science at Korea University.
             </p>
           </div>
 
