@@ -65,6 +65,10 @@
     transition: all 0.2s ease-out;
   }
 
+  .nav-links .active {
+    border-bottom: 4px solid #fff;
+  }
+
 
   .github-logo{
     max-height: 50%;
