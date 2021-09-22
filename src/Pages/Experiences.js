@@ -145,7 +145,7 @@ function Experiences() {
                 <li>
                   <b className="-purple">KU 2020 Smart Campus Dataton</b>
                   <br />
-                  App for promotional material management services
+                  App for promotional material management
                   <br />
                   2020.09
                 </li>

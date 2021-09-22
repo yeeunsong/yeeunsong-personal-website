@@ -1,4 +1,6 @@
 import "./Home.css";
+import { HoverMorphIcon } from "react-svg-buttons";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -7,6 +9,15 @@ function Home() {
       <h1>Hi, I'm Yeeun.</h1>
       <p>I'll show you around my workspace.</p>
       <br />
+      <Link to="/projects">
+        <HoverMorphIcon
+          baseType="fwd"
+          hoverType="arrowRight"
+          size={60}
+          thickness={2}
+          color="#ffffff"
+        />
+      </Link>
     </div>
   );
 }

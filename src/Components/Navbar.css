@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 65px;
+    height: 60px;
     width: 100%;
   }
   
@@ -48,7 +48,7 @@
   }
   
   .nav-item {
-    height: 80px;
+    height: 60px;
   }
   
   .nav-links {
@@ -64,6 +64,8 @@
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
   }
+
+
   .github-logo{
     max-height: 50%;
     width: auto;

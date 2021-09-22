@@ -5,11 +5,11 @@
 
 
 #about{
-    background-image: url("../Assets/images/white-background-trianglify.png");
+    background-image: url("../Assets/images/trianglify-satin.png");
     background-repeat: repeat-y;
     background-position: center;
     background-size: cover;
-    background-color: var(--white);
+    background-color: #ffffff;
     height: 100%;
     width: 100%;
     display: flex;
@@ -18,7 +18,7 @@
     padding-top: 5vh;
     padding-bottom: 10vh;
     flex-direction: column;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
     object-fit: contain;
 }
 
