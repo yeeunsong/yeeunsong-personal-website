@@ -16,6 +16,7 @@ function Home() {
           size={60}
           thickness={2}
           color="#ffffff"
+          className="hovericon"
         />
       </Link>
     </div>
