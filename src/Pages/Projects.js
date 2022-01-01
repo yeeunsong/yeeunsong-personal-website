@@ -7,6 +7,9 @@ import { useSpring, a } from "react-spring/three";
 import "./Projects.css";
 import Montserrat_Bold from "../Assets/fonts/Montserrat_Bold.json";
 
+const expand_ = 1.0;
+const normal = 0.7;
+
 function Text({ position, size, height, text }) {
   const font = new THREE.FontLoader().parse(Montserrat_Bold);
 
@@ -34,7 +37,7 @@ function Sphere({ position, imageurl, link }) {
 
   useFrame((state, delta) => (ref.current.rotation.y += 0.01));
   const props = useSpring({
-    scale: expand ? [1.4, 1.4, 1.4] : [1, 1, 1],
+    scale: expand ? [expand_, expand_, expand_] : [normal, normal, normal],
   });
   useEffect(() => {
     document.body.style.cursor = hovered ? "pointer" : "auto";
@@ -61,43 +64,43 @@ function Sphere({ position, imageurl, link }) {
   );
 }
 
-function SphereWithRing({ position, imageurl, link }) {
-  const ref = useRef();
-  const textureLoader = new TextureLoader();
-  const texture = textureLoader.load(imageurl);
+// function SphereWithRing({ position, imageurl, link }) {
+//   const ref = useRef();
+//   const textureLoader = new TextureLoader();
+//   const texture = textureLoader.load(imageurl);
 
-  const [expand, setExpand] = useState(false);
-  const [hovered, setHovered] = useState(false);
+//   const [expand, setExpand] = useState(false);
+//   const [hovered, setHovered] = useState(false);
 
-  useFrame((state, delta) => (ref.current.rotation.y += 0.01));
-  const props = useSpring({
-    scale: expand ? [1.4, 1.4, 1.4] : [1, 1, 1],
-  });
-  useEffect(() => {
-    document.body.style.cursor = hovered ? "pointer" : "auto";
-  }, [hovered]);
+//   useFrame((state, delta) => (ref.current.rotation.y += 0.01));
+//   const props = useSpring({
+//     scale: expand ? [1.4, 1.4, 1.4] : [1, 1, 1],
+//   });
+//   useEffect(() => {
+//     document.body.style.cursor = hovered ? "pointer" : "auto";
+//   }, [hovered]);
 
-  return (
-    <a.mesh
-      position={position}
-      onClick={() => window.open(link)}
-      onPointerOver={() => {
-        setHovered(true);
-        setExpand(!expand);
-      }}
-      onPointerOut={() => {
-        setHovered(false);
-        setExpand(!expand);
-      }}
-      scale={props.scale}
-      ref={ref}
-    >
-      <sphereGeometry attach="geometry" args={[1, 32, 32]} />
-      <torusGeometry attach="geometry" args={[1, 0.4, 32, 64]} />
-      <meshStandardMaterial attach="material" map={texture} />
-    </a.mesh>
-  );
-}
+//   return (
+//     <a.mesh
+//       position={position}
+//       onClick={() => window.open(link)}
+//       onPointerOver={() => {
+//         setHovered(true);
+//         setExpand(!expand);
+//       }}
+//       onPointerOut={() => {
+//         setHovered(false);
+//         setExpand(!expand);
+//       }}
+//       scale={props.scale}
+//       ref={ref}
+//     >
+//       <sphereGeometry attach="geometry" args={[1, 32, 32]} />
+//       <torusGeometry attach="geometry" args={[1, 0.4, 32, 64]} />
+//       <meshStandardMaterial attach="material" map={texture} />
+//     </a.mesh>
+//   );
+// }
 
 function Torus({ position, imageurl, link }) {
   const ref = useRef();
@@ -109,7 +112,7 @@ function Torus({ position, imageurl, link }) {
 
   useFrame((state, delta) => (ref.current.rotation.y += 0.01));
   const props = useSpring({
-    scale: expand ? [1.4, 1.4, 1.4] : [1, 1, 1],
+    scale: expand ? [expand_, expand_, expand_] : [normal, normal, normal],
   });
   useEffect(() => {
     document.body.style.cursor = hovered ? "pointer" : "auto";
@@ -130,7 +133,7 @@ function Torus({ position, imageurl, link }) {
       scale={props.scale}
       ref={ref}
     >
-      <torusGeometry attach="geometry" args={[1, 0.4, 32, 64]} />
+      <torusGeometry attach="geometry" args={[0.8, 0.3, 32, 64]} />
       <meshStandardMaterial attach="material" map={texture} />
     </a.mesh>
   );
@@ -146,7 +149,7 @@ function TorusKnot({ position, imageurl, link }) {
 
   useFrame((state, delta) => (ref.current.rotation.y += 0.01));
   const props = useSpring({
-    scale: expand ? [1.4, 1.4, 1.4] : [1, 1, 1],
+    scale: expand ? [expand_, expand_, expand_] : [normal, normal, normal],
   });
   useEffect(() => {
     document.body.style.cursor = hovered ? "pointer" : "auto";
@@ -167,7 +170,7 @@ function TorusKnot({ position, imageurl, link }) {
       scale={props.scale}
       ref={ref}
     >
-      <torusKnotGeometry attach="geometry" args={[1, 0.4, 64, 8]} />
+      <torusKnotGeometry attach="geometry" args={[0.8, 0.3, 64, 8]} />
       <meshStandardMaterial attach="material" map={texture} />
     </a.mesh>
   );
@@ -184,45 +187,45 @@ export default function Projects() {
         <Suspense fallback={null}>
           <Text
             position={[-3, 2, -2]}
-            size={0.5}
+            size={0.3}
             height={0.1}
             text={"Rotate the space around :)"}
           />
           <Text
-            position={[-6, -2, -3]}
-            size={0.5}
-            height={0.3}
+            position={[2, -2, -3]}
+            size={0.3}
+            height={0.1}
             text={"Click each planet"}
           />
-          <Sphere
+          {/* <Sphere
             position={[-2, 0, -5]}
             imageurl={"/images/img-1.jpg"}
             link={"https://github.com/yeeunsong/tab-android-app"}
-          />
+          /> */}
           <Torus
             position={[5, 0, -2]}
             imageurl={"/images/img-2.jpg"}
+            link={"https://github.com/KU-BIG/nipa-connection-guide/wiki"}
+          />
+          <Sphere
+            position={[0.7, 0.6, -2.5]}
+            imageurl={"/images/img-8.jpg"}
             link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
           />
           <Sphere
-            position={[0, 0, -2.5]}
-            imageurl={"/images/img-8.jpg"}
-            link={"https://github.com/yeeunsong/SinGAN"}
-          />
-          <Sphere
-            position={[1, -2, 0]}
+            position={[1, -2, -1]}
             imageurl={"/images/img-4.jpg"}
-            link={"https://github.com/yeeunsong/state-of-the-art-server"}
+            link={"https://github.com/yeeunsong/SinGAN"}
           />
           <Sphere
             position={[-3, 1, -1]}
             imageurl={"/images/img-5.jpg"}
-            link={"https://github.com/KU-BIG/nipa-connection-guide/wiki"}
+            link={"https://github.com/yeeunsong/state-of-the-art-server"}
           />
           <TorusKnot
             position={[-4, -3, -5]}
             imageurl={"/images/img-6.jpg"}
-            link={"https://github.com/yeeunsong/2019_Spring_novelty_detection"}
+            link={"https://github.com/yeeunsong/tab-android-app"}
           />
         </Suspense>
       </Canvas>

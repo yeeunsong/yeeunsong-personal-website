@@ -9,3 +9,11 @@
     object-fit: contain;
     background: #272727;
   }
+
+
+
+  @media screen and (max-width: 960px) {
+    .Projects{
+      
+    }
+  }
