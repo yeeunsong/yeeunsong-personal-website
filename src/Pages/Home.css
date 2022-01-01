@@ -6,9 +6,9 @@ video{
     z-index: -1;   
 }
 
-body{
+/* body{
   overscroll-behavior: none;
-}
+} */
 
 .Home {
     height: 90vh;
@@ -17,6 +17,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 3rem;
     /*box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
     object-fit: contain;*/
   }
