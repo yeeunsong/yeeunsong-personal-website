@@ -185,9 +185,10 @@
 
     #about .about-contact {
         flex-flow: row wrap;
+        
    }
-    #about .about-contact li:last-child {
+    /* #about .about-contact li:last-child {
         flex: 0 0 100%;
         margin: 1rem 0 0;
-   }
+   } */
 }
