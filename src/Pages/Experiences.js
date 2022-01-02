@@ -58,12 +58,15 @@ function Experiences() {
             </ul>
 
             <p className="-gray">
-              I am an engineer, project developer, and explorer. Following
-              directions where my interests leads me.
+              I am an engineer, project developer, and ???????. 
             </p>
             <p className="-gray">
-              Currently majoring Computer Science at Korea University.
+              I've always had a fascination for making ideas become real.
             </p>
+            <p className="-gray">
+              I am a senior studying computer science at Korea University. Right now, I am on an exchange program at Göttingen University.
+            </p>
+            
           </div>
 
           <div className="about-grid">
@@ -71,14 +74,13 @@ function Experiences() {
             <div className="columns fluent">
               <ul>
                 <li>
-                  Backend Development,
-                  <br />
-                  Machine Learning
+                  Backend Development
+                  <br/> what should I specialize??
                 </li>
                 <li>
                   Node.js, Express, Three.js,
                   <br />
-                  C, Python, Pytorch
+                  C, Python
                 </li>
               </ul>
             </div>
@@ -131,7 +133,7 @@ function Experiences() {
                 <li>
                   <b className="-purple">2020 DIME Innovative Ideaton</b>
                   <br />
-                  App for the mobility handicapped
+                  Ideation of an app for the mobility handicapped
                   <br />
                   2020.12
                 </li>
@@ -163,7 +165,7 @@ function Experiences() {
             <div className="columns experience">
               <ul>
                 <li>
-                  <b className="-purple">2020 Kaist Summer MadCamp</b>
+                  <b className="-purple">2021 Kaist Summer MadCamp</b>
                   <br />
                   Developed 4 app and web services
                   <br />
@@ -175,7 +177,7 @@ function Experiences() {
                     Vice President
                   </b>
                   <br />
-                  Long-term machine learning projects
+                  Long-term machine learning projects and studies
                   <br />
                   2019.04 - 2020.08
                 </li>
@@ -191,7 +193,7 @@ function Experiences() {
                     KU Global Leadership China Winter Program
                   </b>
                   <br />
-                  Harbin Institute of Technology, Chinese study
+                  Harbin Institute of Technology, Chinese and cultural study
                   <br />
                   2018.12 - 2019.01
                 </li>
@@ -200,7 +202,7 @@ function Experiences() {
                     KU Global Leadership China Summer Program
                   </b>
                   <br />
-                  Shanghai Huadong Normal University, Chinese study
+                  Shanghai Huadong Normal University, Chinese and cultural study
                   <br />
                   2018.07 - 2018.08
                 </li>
@@ -225,8 +227,7 @@ function Experiences() {
             <h2 className="sub-title">Also busy with</h2>
             <div className="columns busy">
               <ul>
-                <li>Learning German</li>
-                <li>Preparing exchange student to Germany</li>
+                <li>Enjoying Germany</li>
                 <li>Workout</li>
                 <li>Running</li>
               </ul>
