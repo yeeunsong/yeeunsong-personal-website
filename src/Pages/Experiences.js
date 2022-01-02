@@ -58,24 +58,24 @@ function Experiences() {
             </ul>
 
             <p className="-gray">
-              I am an engineer, project developer, and ???????. 
+              I am an engineer, project developer, and ???????.
             </p>
             <p className="-gray">
-              I've always had a fascination for making ideas become real.
+              I've always had a fascination for making ideas become real.??????
             </p>
             <p className="-gray">
-              I am a senior studying computer science at Korea University. Right now, I am on an exchange program at Göttingen University.
+              I am a senior studying computer science at Korea University. Right
+              now, I am on an exchange program at Göttingen University.
             </p>
-            
           </div>
 
           <div className="about-grid">
-            <h2 className="sub-title">Skills</h2>
+            <h2 className="sub-title">Skills?????</h2>
             <div className="columns fluent">
               <ul>
                 <li>
-                  Backend Development
-                  <br/> what should I specialize??
+                  Frontend Development
+                  <br /> what should I specialize??
                 </li>
                 <li>
                   Node.js, Express, Three.js,
