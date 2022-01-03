@@ -123,6 +123,7 @@ function Torus({ position, imageurl, link }) {
     <a.mesh
       position={position}
       onClick={() => window.open(link)}
+      onPointerDown={() => window.open(link)}
       onPointerOver={() => {
         setHovered(true);
         setExpand(!expand);
@@ -160,6 +161,7 @@ function TorusKnot({ position, imageurl, link }) {
     <a.mesh
       position={position}
       onClick={() => window.open(link)}
+      onPointerDown={() => window.open(link)}
       onPointerOver={() => {
         setHovered(true);
         setExpand(!expand);
