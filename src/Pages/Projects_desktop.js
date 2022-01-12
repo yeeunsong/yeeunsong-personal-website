@@ -47,7 +47,7 @@ function Sphere({ position, imageurl, link }) {
     <a.mesh
       position={position}
       onClick={() => window.open(link)}
-      onPointerDown={() => window.open(link)}
+      // onPointerDown={() => window.open(link)} --> for mobile version
       onPointerOver={() => {
         setHovered(true);
         setExpand(!expand);
@@ -123,7 +123,7 @@ function Torus({ position, imageurl, link }) {
     <a.mesh
       position={position}
       onClick={() => window.open(link)}
-      onPointerDown={() => window.open(link)}
+      // onPointerDown={() => window.open(link)} --> for mobile version
       onPointerOver={() => {
         setHovered(true);
         setExpand(!expand);
@@ -161,7 +161,7 @@ function TorusKnot({ position, imageurl, link }) {
     <a.mesh
       position={position}
       onClick={() => window.open(link)}
-      onPointerDown={() => window.open(link)}
+      // onPointerDown={() => window.open(link)} --> for mobile version
       onPointerOver={() => {
         setHovered(true);
         setExpand(!expand);
@@ -191,13 +191,13 @@ export default function Projects() {
           <Text
             position={[-3, 2, -2]}
             size={0.3}
-            height={0.1}
+            height={0.03}
             text={"Rotate the space around :)"}
           />
           <Text
             position={[2, -2, -3]}
             size={0.3}
-            height={0.1}
+            height={0.03}
             text={"Click each planet"}
           />
           {/* <Sphere
@@ -208,7 +208,7 @@ export default function Projects() {
           <Torus
             position={[5, 0, -2]}
             imageurl={"/images/img-2.jpg"}
-            link={"https://github.com/KU-BIG/nipa-connection-guide/wiki"}
+            link={"https://github.com/yeeunsong/yeeunsong-personal-website"}
           />
           <Sphere
             position={[0.7, 0.6, -2.5]}

@@ -10,22 +10,22 @@ import Montserrat_Bold from "../Assets/fonts/Montserrat_Bold.json";
 const expand_ = 1.0;
 const normal = 0.7;
 
-// function Text({ position, size, height, text }) {
-//   const font = new THREE.FontLoader().parse(Montserrat_Bold);
+function Text({ position, size, height, text }) {
+  const font = new THREE.FontLoader().parse(Montserrat_Bold);
 
-//   const textOptions = {
-//     font,
-//     size: size,
-//     height: height,
-//   };
+  const textOptions = {
+    font,
+    size: size,
+    height: height,
+  };
 
-//   return (
-//     <mesh position={position}>
-//       <textGeometry attach="geometry" args={[text, textOptions]} />
-//       <meshStandardMaterial attach="material" />
-//     </mesh>
-//   );
-// }
+  return (
+    <mesh position={position}>
+      <textGeometry attach="geometry" args={[text, textOptions]} />
+      <meshStandardMaterial attach="material" />
+    </mesh>
+  );
+}
 
 function Sphere({ position, imageurl, link }) {
   const ref = useRef();
@@ -46,16 +46,16 @@ function Sphere({ position, imageurl, link }) {
   return (
     <a.mesh
       position={position}
-      onClick={() => window.open(link)}
+      // onClick={() => window.open(link)}
       onPointerDown={() => window.open(link)}
-      onPointerOver={() => {
-        setHovered(true);
-        setExpand(!expand);
-      }}
-      onPointerOut={() => {
-        setHovered(false);
-        setExpand(!expand);
-      }}
+      // onPointerOver={() => {
+      //   setHovered(true);
+      //   setExpand(!expand);
+      // }}
+      // onPointerOut={() => {
+      //   setHovered(false);
+      //   setExpand(!expand);
+      // }}
       scale={props.scale}
       ref={ref}
     >
@@ -122,16 +122,16 @@ function Torus({ position, imageurl, link }) {
   return (
     <a.mesh
       position={position}
-      onClick={() => window.open(link)}
+      // onClick={() => window.open(link)}
       onPointerDown={() => window.open(link)}
-      onPointerOver={() => {
-        setHovered(true);
-        setExpand(!expand);
-      }}
-      onPointerOut={() => {
-        setHovered(false);
-        setExpand(!expand);
-      }}
+      // onPointerOver={() => {
+      //   setHovered(true);
+      //   setExpand(!expand);
+      // }}
+      // onPointerOut={() => {
+      //   setHovered(false);
+      //   setExpand(!expand);
+      // }}
       scale={props.scale}
       ref={ref}
     >
@@ -160,16 +160,16 @@ function TorusKnot({ position, imageurl, link }) {
   return (
     <a.mesh
       position={position}
-      onClick={() => window.open(link)}
+      // onClick={() => window.open(link)}
       onPointerDown={() => window.open(link)}
-      onPointerOver={() => {
-        setHovered(true);
-        setExpand(!expand);
-      }}
-      onPointerOut={() => {
-        setHovered(false);
-        setExpand(!expand);
-      }}
+      // onPointerOver={() => {
+      //   setHovered(true);
+      //   setExpand(!expand);
+      // }}
+      // onPointerOut={() => {
+      //   setHovered(false);
+      //   setExpand(!expand);
+      // }}
       scale={props.scale}
       ref={ref}
     >
@@ -188,47 +188,47 @@ export default function Projects() {
         <ambientLight intensity={0.5} />
         <spotLight position={[10, 15, 10]} angle={0.3} />
         <Suspense fallback={null}>
-          {/* <Text
-            position={[-3, 2, -2]}
+          <Text
+            position={[-3, 4, -2]}
             size={0.3}
-            height={0.1}
-            text={"Rotate the space around :)"}
+            height={0.03}
+            text={"Click each planet"}
           />
           <Text
-            position={[2, -2, -3]}
+            position={[-2.4, -1, -3]}
             size={0.3}
-            height={0.1}
-            text={"Click each planet"}
-          /> */}
+            height={0.03}
+            text={"Rotate the space around:)"}
+          />
           {/* <Sphere
             position={[-2, 0, -5]}
             imageurl={"/images/img-1.jpg"}
             link={"https://github.com/yeeunsong/tab-android-app"}
           /> */}
-          <Torus
-            position={[5, 0, -2]}
-            imageurl={"/images/img-2.jpg"}
-            link={"https://github.com/KU-BIG/nipa-connection-guide/wiki"}
-          />
           <Sphere
-            position={[0.7, 0.6, -2.5]}
-            imageurl={"/images/img-8.jpg"}
-            link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
-          />
-          <Sphere
-            position={[1, -2, -1]}
-            imageurl={"/images/img-4.jpg"}
-            link={"https://github.com/yeeunsong/SinGAN"}
-          />
-          <Sphere
-            position={[-3, 1, -1]}
+            position={[-1, 2.5, -1]}
             imageurl={"/images/img-5.jpg"}
             link={"https://github.com/yeeunsong/state-of-the-art-server"}
           />
+          <Sphere
+            position={[-2, 0.6, -2.5]}
+            imageurl={"/images/img-8.jpg"}
+            link={"https://github.com/yeeunsong/DATATON_Recommendation_System"}
+          />
+          <Torus
+            position={[2, 1.5, -2.5]}
+            imageurl={"/images/img-2.jpg"}
+            link={"https://github.com/yeeunsong/yeeunsong-personal-website"}
+          />
           <TorusKnot
-            position={[-4, -3, -5]}
+            position={[-1.3, -3, -5]}
             imageurl={"/images/img-6.jpg"}
             link={"https://github.com/yeeunsong/tab-android-app"}
+          />
+          <Sphere
+            position={[2, -2.8, -3]}
+            imageurl={"/images/img-4.jpg"}
+            link={"https://github.com/yeeunsong/SinGAN"}
           />
         </Suspense>
       </Canvas>
