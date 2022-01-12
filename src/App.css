@@ -18,7 +18,8 @@ body {
 :root{
   --mint: #3DC9B3;
   --gray-light: #dbdbdb;
-  --gray-medium: #6c757d;
+  --gray-medium-light: #a09a9a;
+  --gray-medium: #616569;
   --gray-dark: #333333;
   --white:#F3F5F8; 
   --orange: #F16000;

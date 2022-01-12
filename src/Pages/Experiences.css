@@ -28,16 +28,22 @@
     color: var(--gray-dark);
 }
 
-.-purple{
-    color: var(--bg);
+
+.email{
+    color: var(--gray-medium);
+    font-size: 0.95rem;
 }
 
 .sub-title{
-    color: var(--mint);
+    color: var(--orange);
 }
 
-.-gray{
-    color: var(--bg);
+.-gray-dark{
+    color: var(--gray-dark);
+}
+
+.-gray-medium{
+    color: var(--gray-medium);
 }
 
 #about .about-contact {
@@ -60,7 +66,7 @@
     align-items: center;
     text-decoration: none;
 }
-#about .about-contact a.bt {
+/* #about .about-contact a.bt {
     background: var(--purple);
     color: var(--bg);
     padding: 0 1rem;
@@ -76,13 +82,12 @@
 }
 #about .about-contact a.bt:hover {
     background: var(--light);
-}
+} */
 #about .about-contact a .ico {
     flex: 0 0 auto;
     overflow: visible;
     width: 1.5rem;
     height: 1.5rem;
-    stroke: var(--bg);
     fill: var(--orange);
     stroke-width: 2px;
     transition: all 400ms ease-out;
@@ -98,7 +103,6 @@
 #about .about-grid h2 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: var(--orange);
 }
 #about .about-grid .columns {
     margin-bottom: 3rem;
@@ -114,7 +118,7 @@
     margin: 0;
     font-size: 1rem;
     line-height: 1.5em;
-    color: var(--gray);
+    color: var(--gray-dark);
 }
 #about .about-grid .tools {
     display: grid;
@@ -187,8 +191,8 @@
         flex-flow: row wrap;
         
    }
-    /* #about .about-contact li:last-child {
-        flex: 0 0 100%;
-        margin: 1rem 0 0;
-   } */
+    
+   .email{
+       font-size: 0.9rem;
+   }
 }

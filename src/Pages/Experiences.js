@@ -55,32 +55,36 @@ function Experiences() {
                   </svg>
                 </a>
               </li>
+              <li>
+                <p className="email">yeeunsong1019@gmail.com</p>
+              </li>
             </ul>
 
-            <p className="-gray">
-              I am an engineer, project developer, and ???????.
+            <p className="-gray-dark">
+              I am a software engineer, project developer, and communicator.
             </p>
-            <p className="-gray">
-              I've always had a fascination for making ideas become real.??????
-            </p>
-            <p className="-gray">
-              I am a senior studying computer science at Korea University. Right
-              now, I am on an exchange program at Göttingen University.
+            <p className="-gray-dark">
+              Senior student studying computer science at Korea University, and
+              currently on an exchange semester at Göttingen University,
+              Germany.
             </p>
           </div>
 
           <div className="about-grid">
-            <h2 className="sub-title">Skills?????</h2>
+            <h2 className="sub-title">Skills</h2>
             <div className="columns fluent">
               <ul>
                 <li>
-                  Frontend Development
-                  <br /> what should I specialize??
+                  <b>Frontend</b>
+                  <p>Three.js, React</p>
                 </li>
                 <li>
-                  Node.js, Express, Three.js,
-                  <br />
-                  C, Python
+                  <b>Backend</b>
+                  <br /> Node.js, Express, MySQL
+                </li>
+                <li>
+                  <b>Languages</b>
+                  <br /> Python, C, C++, JavaScript
                 </li>
               </ul>
             </div>
@@ -89,7 +93,7 @@ function Experiences() {
             <div className="columns experience">
               <ul>
                 <li>
-                  <b className="-purple">
+                  <b className="bold">
                     Wildfire AI Strategy Planning / Sales, Intern
                   </b>
                   <br />
@@ -98,7 +102,7 @@ function Experiences() {
                   2021.03 - 2021.09
                 </li>
                 <li>
-                  <b className="-purple">
+                  <b className="bold">
                     Machine Learning (Generative Model), Intern
                   </b>
                   <br />
@@ -107,7 +111,7 @@ function Experiences() {
                   2021.01 - 2021.02
                 </li>
                 <li>
-                  <b className="-purple">
+                  <b className="bold">
                     Machine Learning (Virtual Dataset), Intern
                   </b>
                   <br />
@@ -116,7 +120,7 @@ function Experiences() {
                   2020.07 - 2020.08
                 </li>
                 <li>
-                  <b className="-purple">
+                  <b className="bold">
                     International Students Management, Intern
                   </b>
                   <br />
@@ -131,28 +135,28 @@ function Experiences() {
             <div className="columns experience">
               <ul>
                 <li>
-                  <b className="-purple">2020 DIME Innovative Ideaton</b>
+                  <b className="bold">2020 DIME Innovative Ideaton</b>
                   <br />
                   Ideation of an app for the mobility handicapped
                   <br />
                   2020.12
                 </li>
                 <li>
-                  <b className="-purple">Drone AI Video Software Hackaton</b>
+                  <b className="bold">Drone AI Video Software Hackaton</b>
                   <br />
                   AI model for drone video object detection
                   <br />
                   2020.10
                 </li>
                 <li>
-                  <b className="-purple">KU 2020 Smart Campus Dataton</b>
+                  <b className="bold">KU 2020 Smart Campus Dataton</b>
                   <br />
                   App for promotional material management
                   <br />
                   2020.09
                 </li>
                 <li>
-                  <b className="-purple">Creative Challenger Program</b>
+                  <b className="bold">Creative Challenger Program</b>
                   <br />
                   Credit card fraud detection AI
                   <br />
@@ -165,44 +169,44 @@ function Experiences() {
             <div className="columns experience">
               <ul>
                 <li>
-                  <b className="-purple">2021 Kaist Summer MadCamp</b>
+                  <b className="bold">2021 Kaist Summer MadCamp</b>
                   <br />
                   Developed 4 app and web services
                   <br />
                   2021.07
                 </li>
                 <li>
-                  <b className="-purple">
+                  <b className="bold">
                     Korea University Big Data / Machine Learning Association,
                     Vice President
                   </b>
                   <br />
-                  Long-term machine learning projects and studies
+                  Machine learning projects and studies
                   <br />
                   2019.04 - 2020.08
                 </li>
                 <li>
-                  <b className="-purple">KU Future Sharing School</b>
+                  <b className="bold">KU Future Sharing School</b>
                   <br />
                   Math / English mentor for high school students
                   <br />
                   2018.05 - 2019.03
                 </li>
                 <li>
-                  <b className="-purple">
+                  <b className="bold">
                     KU Global Leadership China Winter Program
                   </b>
                   <br />
-                  Harbin Institute of Technology, Chinese and cultural study
+                  Studied at Harbin Institute of Technology, Chinese and cultural study
                   <br />
                   2018.12 - 2019.01
                 </li>
                 <li>
-                  <b className="-purple">
+                  <b className="bold">
                     KU Global Leadership China Summer Program
                   </b>
                   <br />
-                  Shanghai Huadong Normal University, Chinese and cultural study
+                  Studied at Shanghai Huadong Normal University, Chinese and cultural study
                   <br />
                   2018.07 - 2018.08
                 </li>
