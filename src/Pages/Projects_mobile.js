@@ -223,7 +223,7 @@ export default function Projects() {
           <TorusKnot
             position={[-1.3, -3, -5]}
             imageurl={"/images/img-6.jpg"}
-            link={"https://github.com/yeeunsong/tab-android-app"}
+            link={"https://github.com/yeeunsong/commute-community-app-client"}
           />
           <Sphere
             position={[2, -2.8, -3]}

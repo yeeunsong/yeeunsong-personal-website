@@ -228,7 +228,7 @@ export default function Projects() {
           <TorusKnot
             position={[-4, -3, -5]}
             imageurl={"/images/img-6.jpg"}
-            link={"https://github.com/yeeunsong/tab-android-app"}
+            link={"https://github.com/yeeunsong/commute-community-app-client"}
           />
         </Suspense>
       </Canvas>
