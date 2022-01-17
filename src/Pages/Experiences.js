@@ -142,7 +142,7 @@ function Experiences() {
                   2020.12
                 </li>
                 <li>
-                  <b className="bold">Drone AI Video Software Hackaton</b>
+                  <b className="bold">Drone AI Video Software Hackathon</b>
                   <br />
                   AI model for drone video object detection
                   <br />
