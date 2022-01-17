@@ -171,7 +171,7 @@ function Experiences() {
                 <li>
                   <b className="bold">2021 Kaist Summer MadCamp</b>
                   <br />
-                  Developed 4 app and web services
+                  Developed 4 app and web projects
                   <br />
                   2021.07
                 </li>
@@ -197,7 +197,8 @@ function Experiences() {
                     KU Global Leadership China Winter Program
                   </b>
                   <br />
-                  Studied at Harbin Institute of Technology, Chinese and cultural study
+                  Studied at Harbin Institute of Technology, Chinese and
+                  cultural study
                   <br />
                   2018.12 - 2019.01
                 </li>
@@ -206,7 +207,8 @@ function Experiences() {
                     KU Global Leadership China Summer Program
                   </b>
                   <br />
-                  Studied at Shanghai Huadong Normal University, Chinese and cultural study
+                  Studied at Shanghai Huadong Normal University, Chinese and
+                  cultural study
                   <br />
                   2018.07 - 2018.08
                 </li>
